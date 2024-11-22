@@ -10,7 +10,7 @@ import (
 
 const (
 	Socket     = "unix:///var/run/docker.sock"
-	APIVersion = "v1.22"
+	APIVersion = "v1.24"
 )
 
 // Client holds an instance of the docker client
