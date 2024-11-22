@@ -18,7 +18,7 @@ FROM alpine:3.8
 
 RUN apk add --no-cache ca-certificates curl
 
-RUN curl -L -s https://github.com/just-containers/s6-overlay/releases/download/v1.21.4.0/s6-overlay-amd64.tar.gz \
+RUN curl -L -s https://github.com/just-containers/s6-overlay/releases/download/v2.2.0.3/s6-overlay-amd64.tar.gz \
   | tar xvzf - -C /
 
 RUN curl -L -s https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 > /bin/cloudflared \
